@@ -145,7 +145,6 @@ public class Lambda_04_Test {
 
 		personFuncCollection.filter(filterByAge).map(mapToAccount).forEach(verifyAccount);
 
-		// TODO A supprimer
 	}
 	// end::test_filter_map_forEach_with_vars[]
 
