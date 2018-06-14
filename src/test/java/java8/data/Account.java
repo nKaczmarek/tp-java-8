@@ -5,6 +5,12 @@ public class Account {
     private Person owner;
     private Integer balance;
 
+    public Account(Person p, Integer b)
+    {
+    	this.owner = p;
+    	this.balance = b;
+    }
+    
     public Person getOwner() {
         return owner;
     }
